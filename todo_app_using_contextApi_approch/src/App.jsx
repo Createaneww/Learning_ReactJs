@@ -13,7 +13,7 @@ function App() {
   }
 
   const editTodo = (id, text) => {
-    setTodos((prev) => prev.map((t) => t.id === id ? { ...t, text } : t))
+    setTodos((prev) => prev.map((t) => t.id === id ? {...t, text } : t))
   }
 
   const deleteTodo = (id) => {
