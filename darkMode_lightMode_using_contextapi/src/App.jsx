@@ -1,11 +1,8 @@
-
 import './App.css'
 import CardUi from './Components/CardUi'
 import Themebtn from './Components/Themebtn'
 import ThemeContextProvider from './Context/ThemeContextProvider'
 function App() {
-
-
   return (
   <ThemeContextProvider>
   <div className="flex flex-wrap min-h-screen items-center">
